@@ -1,18 +1,20 @@
-from modules.restaurant import Restaurant
+from src.constants import MENU_ITEMS, TABLES, CUSTOMER_ORDERS, CUSTOMER_BUDGET
+from src.restaurant import Restaurant
 
 def main():
-    my_restaurant = Restaurant(
-    menu_items={'Main Dish': 20.99, 'Soup': 12.00, 'Drink': 5.25, 'Dessert' : 7.25},
-    tables=['RESERVED', 'EMPTY', 'EMPTY'],
-    customer_orders={'Soup': 2, 'Main Dish' : 1, 'Drink' : 2, 'Dessert' : 0},
-    customer_budget = 120
-    )
+    menu_items = MENU_ITEMS
+    tables = TABLES
+    customer_orders = CUSTOMER_ORDERS
+    customer_budget = CUSTOMER_BUDGET
 
-    my_restaurant.add_item_to_menu()
-    my_restaurant.print_menu()
+    print("Welcome to my restaurant, Sir\n")
+    
+    my_restaurant = Restaurant(menu_items, tables, customer_orders, customer_budget)
     my_restaurant.book_table()
+    my_restaurant.print_menu()
+    my_restaurant.get_order()
     my_restaurant.print_order_details()
-    my_restaurant.confirm_payment()
+    my_restaurant.get_payment()
 
 if __name__ == '__main__':
     main()
