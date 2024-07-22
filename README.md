@@ -36,6 +36,19 @@
 3. Follow the on-screen prompts to book a table, view the menu, place orders, and process payments.
 
 ## Project Structure
+```markdown
+📁 project-root
+│
+├── 📁 src
+│ ├── 📄 __init__.py
+│ ├── 📄 constants.py
+│ └── 📄 restaurant.py
+│
+├── 📄 .gitignore
+├── 📄 .gitattributes
+└── 📄 main.py
+```
+
 * **src/**: Contains source code files.
   * ***\__init__.py***: Initializes the source package and sets up logging.
   * ***constants.py***: Defines constants used throughout the application.
@@ -43,6 +56,7 @@
   
 * **.gitignore**: Specifies files and directories to be ignored by Git (e.g., virtual environments, build artifacts).
 * **.gitattributes**: Ensures consistent line endings across different operating systems in the repository.
+* **main.py**: The entry point of the application. It initializes the restaurant system, handles table booking, menu display, order taking, and payment processing. It provides a complete flow from starting the application to completing a transaction.
 
 ## Code Example
 * **Menu Management**: The `print_menu` method in `Restaurant` displays the current menu.
@@ -51,8 +65,7 @@
 * **Payment Processing**: The `get_payment` method processes the customer's payment.
 
 ## Code Example
-**main.py**: The entry point of the application. It initializes the restaurant system, handles table booking, menu display, order taking, and payment processing. It provides a complete flow from starting the application to completing a transaction.
-
+### Main Program
 ```python
 from src.constants import MENU_ITEMS, TABLES, CUSTOMER_ORDERS, CUSTOMER_BUDGET
 from src.restaurant import Restaurant
