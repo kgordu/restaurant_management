@@ -4,16 +4,17 @@
 **Restaurant Management System** is a Python-based application designed to simulate the management of a restaurant. It features functionalities for displaying a menu, taking orders, booking tables, and processing payments. The system also handles basic restaurant operations like updating menu items and checking customer budgets.
 
 ## Features
-* 🚀 **Menu Management** 🚀
+
+🚀 **Menu Management** 🚀
   * Display and update the restaurant menu.
     
-* ✨ **Table Reservation** ✨
+✨ **Table Reservation** ✨
   * Book tables and manage table availability.
     
-* 🐧 **Order Handling** 🐧
+🐧 **Order Handling** 🐧
   * Take customer orders and manage customer-specific requests.
     
-* 💸 **Payment Processing** 💸
+💸 **Payment Processing** 💸
   * Handle transactions and manage customer budgets.
 
 ## Installation
@@ -66,10 +67,13 @@
 * **main.py**: The entry point of the application. It initializes the restaurant system, handles table booking, menu display, order taking, and payment processing. It provides a complete flow from starting the application to completing a transaction.
 
 ## Code Example
-* **Menu Management**: The `print_menu` method in `Restaurant` displays the current menu.
-* **Table Reservation**: The `book_table` method allows for reserving a table.
-* **Order Handling**: The `get_order` and `print_order_details` methods handle and display customer orders.
-* **Payment Processing**: The `get_payment` method processes the customer's payment.
+🛎️ **Menu Management** 🛎️ -> The `print_menu` method in `Restaurant` displays the current menu
+
+🍽️ **Table Reservation** 🍽️  -> The `book_table` method allows for reserving a table
+
+🧾 **Order Handling** 🧾 -> The `get_order` and `print_order_details` methods handle and display customer orders.
+
+💳 **Payment Processing** 💳 -> The `get_payment` method processes the customer's payment.
 
 ## Code Example
 ### Main Program
