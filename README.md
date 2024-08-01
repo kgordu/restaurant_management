@@ -4,10 +4,17 @@
 **Restaurant Management System** is a Python-based application designed to simulate the management of a restaurant. It features functionalities for displaying a menu, taking orders, booking tables, and processing payments. The system also handles basic restaurant operations like updating menu items and checking customer budgets.
 
 ## Features
-* **Menu Management:** Display and update the restaurant menu.
-* **Table Reservation:** Book tables and manage table availability.
-* **Order Handling:** Take customer orders and manage customer-specific requests.
-* **Payment Processing:** Handle transactions and manage customer budgets.
+* 🚀 **Menu Management** 🚀
+  * Display and update the restaurant menu.
+    
+* ✨ **Table Reservation** ✨
+  * Book tables and manage table availability.
+    
+* 🐧 **Order Handling** 🐧
+  * Take customer orders and manage customer-specific requests.
+    
+* 💸 **Payment Processing** 💸
+  * Handle transactions and manage customer budgets.
 
 ## Installation
 1. **Clone the repository**: 
